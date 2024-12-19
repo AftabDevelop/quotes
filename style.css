@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.hello{
+    width: 500px;
+    text-align: center;
+    border-radius: 20px;
+}
+.container {
+    text-align: center;
+    /* background: #fff; */
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid red;
+
+}
+@media screen and (max-width: 480px) {
+    .hello {
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    .container {
+        padding: 10px 15px;
+    }
+    
+    body {
+        padding: 10px;
+    }
+}
