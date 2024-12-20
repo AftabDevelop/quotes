@@ -22,21 +22,11 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border: 2px solid red;
 }
-.hello1{
-    height: 300px;
-    width: 100%;
-    border-radius: 20px;
-}
 @media screen and (max-width: 480px) {
     .hello {
         width: 95%;
         margin: 0 auto;
-    }
-    .hello1{
-        width: 95%;
-        margin: 0 auto;
-    }
-    
+    } 
     .container {
         padding: 10px 15px;
     }
